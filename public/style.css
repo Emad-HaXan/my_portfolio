@@ -1,0 +1,171 @@
+@font-face
+{
+    font-family: 'ComicNeue' ;
+    src: url('fonts/ComicNeue-Regular.ttf');
+}
+
+*
+{
+    box-sizing: border-box;
+    font-family: ComicNeue, serif, Helvetica;
+}
+
+#header
+{
+    background-color: powderblue;
+    padding: 15px;
+    text-align: center;
+    color: indigo;
+    font-size: 25px;
+}
+
+.left
+{
+    background-color: slategray;
+    float: left;
+    width: 35%;
+    padding: 15px;
+    margin-top: 7px;
+}
+
+.right
+{
+    background-color: slategray;
+    float: left;
+    width: 25%;
+    padding: 15px;
+    margin-top: 7px;
+}
+
+.left_header, .right_header
+{
+    text-align: center;
+    border-style: double;
+    border-width: 4px;
+    border-color: burlywood;
+}
+
+.left_body, .right_body_two, .right_body_one
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: aliceblue;
+}
+
+.left_body>table, .right_body_two>table, .main_body>table, .right_body_one>table
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.left_body>table img
+{
+    display: block;
+    max-width: 60%;
+    height: inherit;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left_body>table td, .right_body_one>table td
+{
+    color: khaki;
+}
+
+.right_body_two>table td
+{
+    padding: 5px;
+}
+
+.right_body_two>table img
+{
+    border-radius: 5px;
+}
+
+.main 
+{
+    background-color: lightyellow;
+    float:left;
+    width:40%;
+    padding: 15px;
+    margin-top: 7px;
+}
+
+.main_header
+{
+    text-align: center;
+    border-style: double;
+    border-width: 4px;
+    border-color: slategrey;
+}
+
+.main_body
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main_body>table, .right_body_one>table
+{
+    border-collapse: collapse;
+    border: 2px solid black ;
+}
+
+.main_body> table td, .right_body_one>table td
+{
+    border-top: 2px solid black ;
+    border-bottom: 2px solid black;
+}
+
+.main_body>table a 
+{
+    background-color: orangered;
+    text-align: center;
+    padding:8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    width:30%;
+    color: cornsilk;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.main_body>table a:hover 
+{
+    background-color: crimson;
+    color: cornsilk;
+}
+
+.main_body>table a:visited
+{
+    color: cornsilk;
+}
+
+.show
+{
+    display: block;
+    max-width: 80%;
+    height: inherit;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .left,  .right, .main {
+      width:100%;
+    }
+  }

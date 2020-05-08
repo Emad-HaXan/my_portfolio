@@ -1,0 +1,368 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: white;
+}
+
+.blue
+{
+    color: #316dc3;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.green
+{
+    color: #427900;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.m-favicon
+{
+    display: inline-block;
+}
+
+
+.section-title, .title-image
+{
+    text-align: center;
+}
+
+.header-top
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #316dc3;
+}
+
+.header-top-social
+{
+    margin: 3px 100px 3px 10px;
+}
+
+.header-top-social .fa
+{
+    margin: 14px 12px;
+}
+
+.header-top-center
+{
+    margin: 3px 0px 3px 0px;
+}
+
+.header-top-center > p
+{
+    color: white;
+    font-size: 15px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.header-top-buttons
+{
+    margin: 3px 0px 3px 70px;
+}
+
+.header-top-buttons > a
+{
+    color: green;
+    display: inline-flex;
+    margin: 8px 0px;
+    background-color: white;
+    border: 1px solid green;
+    font-size: 12px;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+
+.header-top-buttons > a:hover
+{
+    text-decoration: none;
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+}
+
+.slider > img
+{
+    width: 100%;
+}
+
+.headline
+{
+    background-color: #316dc3;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.headline > marquee > .news-heading
+{
+    color: #0cda31;
+}
+
+.headline > marquee > .news-message
+{
+    color: #d7e3f4;
+}
+
+.headline > marquee > .news-link
+{
+    color: #1837e1;
+}
+
+.introduction
+{
+    background-color: #f7f8fa;
+}
+
+.introduction-data
+{
+    width: 70%;
+    margin: auto;
+}
+
+.introduction-data > p
+{
+    text-align: justify;
+}
+
+.introduction > .section-title > .green 
+{
+    margin-left: 0px;
+}
+.introduction > .section-title > .blue
+{
+    margin-right: 0px;
+}
+
+.counter
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #2755e9;
+    padding: 80px 0px;
+}
+
+.counter > div
+{
+    text-align: center;
+}
+
+.counter > .counter1
+{
+    margin-right: 25px;
+}
+
+.counter > .counter2
+{
+    margin-right: 40px;
+}
+
+.counter > .counter3
+{
+    margin-right: 40px;
+}
+
+.counter h1
+{
+    color: #ffffff;
+}
+
+.counter h2
+{
+    color: #03f310;
+    display: inline;
+    font-size: 18px;
+}
+
+.counter h3
+{
+    color: #fefeff;
+    display: inline;
+    font-size: 14px;
+}
+
+.counter img
+{
+    width: 35px;
+    height: 35px;
+}
+
+.services
+{
+    background-color: #f7f8fa;
+    padding: 40px 0px;
+}
+
+.services > .services-cards
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+.services > .services-cards > div
+{
+    width: 350px;
+    height: 175px;
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.services > .services-cards img
+{
+    width: 65px;
+    height: 65px;
+    margin: 28px 0px 15px 0px;
+}
+
+.services > .services-cards h3
+{
+    color: #3b74c6;
+}
+
+.upcoming
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px auto;
+    width: 85%;
+}
+
+.upcoming > div
+{
+    margin: 20px 10px 20px 10px;
+}
+
+.upcoming > .upcoming-projects
+{
+    width: 65%;
+}
+
+.upcoming > .upcoming-events
+{
+    width:30%;
+}
+
+.upcoming h1
+{
+    color: #326ec3;
+    font-size: 30px;
+}
+
+.upcoming > .upcoming-projects > .upcoming-projects-cards
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.upcoming-projects-cards div
+{
+    width: 355px;
+    height: 70px;
+    background-color: #f7f8fa;
+    margin: 10px 0px;
+    vertical-align: middle;
+    border: 1px solid #f2f2f3;
+}
+
+.upcoming-projects-cards img
+{
+    display: inline-block;
+    margin: 15px 10px 0px 15px;
+}
+
+.upcoming-projects-cards h3
+{
+    color: #346fc4;
+    font-size: 17px;
+    margin: 15px 0px 0px 10px;
+}
+
+.upcoming > .upcoming-events marquee
+{
+    width: 250px;
+    height: 200px;
+}
+
+.image-gallery
+{
+    margin: 60px 0px 90px 0px;
+}
+
+.image-gallery-images
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image-gallery-images > div > img
+{
+    width: 230px;
+    height: 150px;
+    margin: 10px 3px 10px 3px;
+}
+
+.footer
+{
+    background-color: #25272e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer > div
+{
+    width: 33.33%;
+    margin: 40px 0px 60px 0px;
+}
+
+.address > p
+{
+    color: #bcbfc3;
+}
+
+.useful-links > h4
+{
+    color: white;
+}
+
+.social-icons > h4
+{
+    color: white;
+}
+
+.copyright
+{
+    background-color: #316dd9;
+}
+
+.copyright > p
+{
+    color: white;
+    padding: 15px 0px 15px 110px;
+    font-size: 14px;
+}
